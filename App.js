@@ -7,7 +7,7 @@ export default function App() {
   const [fontLoaded, setFontLoaded] = useState(false);
   useEffect(() => {
     Font.loadAsync({
-      'sf-pro': require('./assets/SFPro-Regular.ttf'),
+      'sf-pro': require('./assets/SF-Pro-Display-Regular.ttf'),
     }).then(() => setFontLoaded(true))
   });
 

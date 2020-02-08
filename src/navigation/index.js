@@ -25,7 +25,7 @@ const MainTabs = createBottomTabNavigator({
     screen: HomeStack,
     navigationOptions: {
       tabBarIcon: ({ tintColor }) => (
-        <Icon name='home' color={tintColor} size={24} />
+        <Icon name='home' color={tintColor} size={28} />
       )
     }
   },
@@ -33,7 +33,7 @@ const MainTabs = createBottomTabNavigator({
     screen: Practices,
     navigationOptions: {
       tabBarIcon: ({ tintColor }) => (
-        <Icon name='book-open' color={tintColor} size={24} />
+        <Icon name='book-open' color={tintColor} size={28} />
       )
     }
   },
@@ -41,7 +41,7 @@ const MainTabs = createBottomTabNavigator({
     screen: Meditation,
     navigationOptions: {
       tabBarIcon: ({ tintColor }) => (
-        <Icon name='zap' color={tintColor} size={24} />
+        <Icon name='zap' color={tintColor} size={28} />
       )
     }
   },
@@ -49,7 +49,7 @@ const MainTabs = createBottomTabNavigator({
     screen: Profile,
     navigationOptions: {
       tabBarIcon: ({ tintColor }) => (
-        <Icon name='user' color={tintColor} size={24} />
+        <Icon name='user' color={tintColor} size={28} />
       )
     }
   }

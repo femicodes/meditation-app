@@ -6,7 +6,7 @@ Design credits: https://dribbble.com/shots/7202830-Meditation-iOS-app-Home-and-P
 
 ## Screenshots
 
-Coming soon
+<img src="./assets/Simulator Screen Shot - iPhone 11 - 2020-02-08 at 13.31.02.png" />
 
 ## :arrow_up: How to Setup
 

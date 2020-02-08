@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
     borderBottomLeftRadius: getHeight(24),
     height: getHeight(313),
     width: getWidth(375),
-    paddingTop: getHeight(54)
+    paddingTop: getHeight(54),
   },
   headerText: {
     textTransform: 'uppercase',
@@ -57,6 +57,29 @@ const styles = StyleSheet.create({
     height: getHeight(168),
     marginLeft: -25,
     marginTop: -40
+  },
+  sectionOne: {
+    marginTop: getHeight(50),
+    /*  marginLeft: getHeight(15), */
+  },
+  sectionHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginHorizontal: getHeight(15),
+  },
+  sectionText: {
+    fontFamily: 'sf-pro',
+    fontSize: getHeight(24),
+  },
+  sectionLink: {
+    fontFamily: 'sf-pro',
+    fontSize: getHeight(16),
+    fontWeight: '900',
+    color: '#4A80F0',
+  },
+  cardScroll: {
+    marginTop: getHeight(16)
   }
 });
 
