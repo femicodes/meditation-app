@@ -7,7 +7,7 @@ export default function App() {
   const [fontLoaded, setFontLoaded] = useState(false);
   useEffect(() => {
     Font.loadAsync({
-      'circular': require('./assets/CircularStd-Book.ttf'),
+      'sf-pro': require('./assets/SFPro-Regular.ttf'),
     }).then(() => setFontLoaded(true))
   });
 
